@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Survey Form</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Vantage Student Survey Form</h1>
+        <p id="description">Please fill in the form.</p>
+    </div>
+    <div class="main">
+        <form id="survey-form" action="">
+            <label id="name-label" for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+            <label id="email-label" for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+            <label id="number-label" for="number">Student number: </label>
+            <input type="number" id="number" min="1" max="8" placeholder="Enter your student number"><br>
+            <label id="stream-label" for="stream">Vantage Stream: </label>
+            <select name="stream" id="dropdown">
+                <option value="art">Art</option>
+                <option value="science">Science</option>
+                <option value="engineering">Engineering</option>
+            </select><br>
+            <label for="location" id="location-label">Where do you study from?</label>
+            <input type="radio" name="location" id="location" value="Vancouver">Vancouver
+            <input type="radio" name="location" id="location" value="Outside">Outside Vancouver<br>
+            <label for="challenge">What is your biggest challenge in Vantage? </label>
+            <input type="checkbox" name="academic" id="academic" value="academic">Academic
+            <input type="checkbox" name="social" id="social" value="social">Social
+            <input type="checkbox" name="health" id="health" value="health">Health<br>
+            <label for="comment">Explain the challenge you encounter:</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50">
+            </textarea>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
