@@ -1,0 +1,73 @@
+html {
+    background: url(https://vantagecollege.ubc.ca/sites/vantagecollege.ubc.ca/files/images/homepageOrchardCommons.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+
+* {
+    font-family: 'Times New Roman', san-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} 
+
+.main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;     
+}
+
+.header {
+    margin: 45px auto 25px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+form {
+    max-width: 45%;
+    border: .5rem;
+    border-style: groove;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 1.2rem;
+    background: #24292E;
+    color: white;
+    padding: 10px;
+}
+
+label, input, select, textarea {
+    margin: 10px 15px;
+    width: 500px;
+    height: 38px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input, option, select{
+    font-size: 18px;
+}
+
+input[type=radio], input[type=checkbox] {
+    max-width: 30px;
+    max-height: 15px;
+}
+
+
+textarea {
+    max-width: 550px;
+    height: 100px;
+}
+
+label::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.finale {
+    display: flex;
+    width: 60%;
+}
+
